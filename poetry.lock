@@ -1,0 +1,28 @@
+[[package]]
+name = "animal"
+version = "0.1"
+description = "A random animal lib"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "playsound"
+version = "1.2.2"
+description = "Pure Python, cross platform, single function module with no dependencies for playing sounds."
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "02f813ae3d779ea2342149629f0a06669da2aa66b5cd9c249bdb97283e13790b"
+
+[metadata.files]
+animal = [
+    {file = "animal-0.1.zip", hash = "sha256:92311c51d8ae3abc058e8410d6a370c9861e5e17c5c1f881cdaa80cbdef40910"},
+]
+playsound = [
+    {file = "playsound-1.2.2-py2.py3-none-any.whl", hash = "sha256:1e83750a5325cbccee03d6e751ba3e78c037ac95b95a3ba1f38d0c5aca9e1a34"},
+]
